@@ -6,6 +6,7 @@ const Header = () => {
     <header className="flex space-x-4 p-5 bg-blue-500">
       <Link href={`/`}>Home</Link>
       <Link href={`/todos`}>Todos</Link>
+      <Link href={`/search`}>Search</Link>
     </header>
   );
 };
